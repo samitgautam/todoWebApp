@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f9;
+    background-image: url(/img/bk.jpg) ;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    width: 900px;
+    /* background: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+}
+h1,h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    padding: 3px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px 0 0 4px;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color:  whitesmoke;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+#taskList{
+    list-style: none;
+    padding: 10px;
+}
+
+#taskList li{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 2px;
+    /* background-color: whitesmoke; */
+}
+#taskList li button{
+    background: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
