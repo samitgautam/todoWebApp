@@ -22,7 +22,7 @@ h1,h3{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-input{
+taskInput{
     padding: 3px;
     width: 450px;
     border: none;
@@ -54,7 +54,7 @@ button{
     justify-content: space-between;
     margin: 5px;
     border-radius: 2px;
-    /* background-color: whitesmoke; */
+    text-align: center;
 }
 #taskList li button{
     background: #d9534f;
